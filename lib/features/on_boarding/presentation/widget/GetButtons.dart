@@ -3,7 +3,8 @@ import '../../../../core/functions/navigation.dart';
 import '../../../../core/utils/app-string.dart';
 import '../../../../core/utils/app_text_styles.dart';
 import '../../../../core/widgets/custom_btn.dart';
-import '../../data/    models/on_boarding_model.dart';
+
+import '../../data/models/on_boarding_model.dart';
 import '../views/functions/on_boarding.dart';
 
 class GetButtons extends StatelessWidget {

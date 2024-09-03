@@ -2,7 +2,8 @@ import 'package:flutter/cupertino.dart';
 
 import '../../../../core/utils/app_assets.dart';
 import '../../../../core/utils/app_text_styles.dart';
-import '../../data/    models/on_boarding_model.dart';
+
+import '../../data/models/on_boarding_model.dart';
 import 'customSmoothIndicator.dart';
 
 class OnBoardingWidgetBody extends StatelessWidget {

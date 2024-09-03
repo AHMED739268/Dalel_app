@@ -52,24 +52,13 @@ class  _ProfileViewState extends State<ProfileView> {
     }
   }
 
-  // Future<void> _pickImage() async {
-  //   final picker = ImagePicker();
-  //   final pickedFile = await picker.pickImage(source: ImageSource.gallery);
-  //
-  //   if (pickedFile != null) {
-  //     setState(() {
-  //       _image = File(pickedFile.path);
-  //     });
-  //   }
-  // }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('User Profile', maxLines: 1,
             overflow: TextOverflow.ellipsis,
-            style: CustomTextStyles.pacifico400style64.copyWith(fontSize: 25),),
+            style: CustomTextStyles.pacifico700style32.copyWith(fontSize: 24, color:AppColors.deepBrown),),
 
             // Handle back button press
         ),
@@ -84,15 +73,13 @@ class  _ProfileViewState extends State<ProfileView> {
               child: Column(
                 children: [
                   CircleAvatar(
-
                     radius: 75,
                     backgroundImage:AssetImage(Assets.avatar,) as ImageProvider,
-
                   ),
                   SizedBox(height: 10),
                   Text(
                     '$firstName $lastName',
-                    style: CustomTextStyles.pacifico400style64.copyWith(fontSize: 25),
+                    style: CustomTextStyles.poppins300style16.copyWith(fontSize: 20,color:AppColors.deepBrown),
                   ),
                 ],
               ),

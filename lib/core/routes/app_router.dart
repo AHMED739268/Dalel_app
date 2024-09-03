@@ -20,9 +20,6 @@ import '../../features/home/presentation/widget/home_nav_bar_widget.dart';
 import '../../features/on_boarding/presentation/views/on_boarding_view.dart';
 import '../../features/splash/presentation/views/splash_view.dart';
 
-//SHA1: 8E:CA:77:C0:CC:EF:4C:79:C1:C0:69:7B:B1:DF:DD:F8:24:74:93:EC
-// SHA-256: A2:AB:3C:C9:CC:1B:D8:EA:E3:C8:B7:BD:EF:D3:36:1E:9F:D7:0E:BD:31:3D:C8:89:82:E6:8E:1B:55:22:38:A6
-
 final GoRouter router = GoRouter(
   routes: [
     GoRoute(
@@ -59,7 +56,9 @@ final GoRouter router = GoRouter(
     ),
     GoRoute(
         path: "/home",
-        builder: (context, state) => HomeView(),
+        builder: (context, state) => HomeView(
+
+        ),
     ),
 
     GoRoute(

@@ -4,7 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../../../core/utils/app_colors.dart';
 import '../../../../core/widgets/custom_data_list_view_item.dart';
-import '../../../auth/presentation/widget/period_wars_section.dart';
+import '../widget/period_wars_section.dart';
 import '../../data/models/historical_periods_model.dart';
 import '../widget/PeriodDetailsSection.dart';
 
